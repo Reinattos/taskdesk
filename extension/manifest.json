@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Gerenciador de tarefas",
+  "version": "1.0.0",
+  "description": "Abre o gerenciador de tarefas local.",
+  "action": {
+    "default_title": "Abrir Gerenciador de tarefas"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs"]
+}
